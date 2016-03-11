@@ -49,7 +49,7 @@ namespace spec
 			//printf("asd");
 
 		}
-		TEST_METHOD(MultiSpaces)
+    		TEST_METHOD(MultiSpaces)
 		{
 			char input[100] = "missionrnd    is    great";
 			char output[100] = "great    is    missionrnd";
