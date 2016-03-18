@@ -26,9 +26,9 @@ int main(){
 	//StrWordsinRev
 
 	//commonWords
-	char s[10] = "abhi";
-	str_words_in_rev(s, 4);
-	printf("\n%s",s);
+	char str1[10] = "ravi is", str2[10] = "good am";
+	//char **p = commonWords(str1, str2);
+	printf("\n%u", commonWords(str1, str2));
 
 	return 0;
 }
